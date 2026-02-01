@@ -31,6 +31,19 @@ By completing this pre-class work, you will:
 Ensure you have Python 3.8+ and Jupyter Notebook/Lab installed.
 Open your terminal or command prompt and run:
 
+Install the prescribed conda environment before you begin.
+
+```bash
+conda env create -f environment.yml
+```
+
+To start Jupyter Notebook, open your terminal (or anaconda prompt), then activate the conda environment:
+
+```bash
+conda activate pds
+```
+
+
 ```
 pip install pandas numpy
 # Or using conda:
